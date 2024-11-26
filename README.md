@@ -1,4 +1,5 @@
 # Interview Copilot App
+
 ![Platforms](https://img.shields.io/badge/platform-macOS%20(ARM)-blue)
 ![Platforms](https://img.shields.io/badge/platform-Windows%20-blue)
 
@@ -11,7 +12,6 @@ AI面试助手，协助用户进行远程面试，助你摆脱八股文带来的
 ## 安装及使用
 
 下载及使用相关说明，请参阅[文档](./docs/安装及使用.md)。
-
 
 ## 致谢
 
