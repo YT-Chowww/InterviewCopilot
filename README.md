@@ -1,0 +1,2 @@
+# InterviewCopilot
+AI Interview Assistant
