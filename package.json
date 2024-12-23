@@ -120,7 +120,7 @@
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.51.4",
     "react-hotkeys-hook": "^4.5.0",
-    "react-i18next": "^14.1.1",
+    "react-i18next": "^15.2.0",
     "react-markdown": "^9.0.1",
     "react-router-dom": "^6.23.1",
     "react-tooltip": "^5.26.4",
