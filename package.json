@@ -126,7 +126,7 @@
     "react-tooltip": "^5.26.4",
     "reflect-metadata": "^0.2.2",
     "rimraf": "^5.0.7",
-    "sonner": "^1.4.41",
+    "sonner": "^1.7.1",
     "tailwind-scrollbar-hide": "^1.1.7",
     "update-electron-app": "^3.0.0"
   }
