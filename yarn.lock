@@ -263,12 +263,12 @@
     fs-extra "^10.0.0"
     which "^2.0.2"
 
-"@electron-forge/maker-base@7.5.0":
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-base/-/maker-base-7.5.0.tgz#6626f33d5f1616b5f31eca72c6818806e3550909"
-  integrity sha512-+jluKW2UPxaI1+qQQ8fqaUVVbZohRjOSF0Iti7STRFbgJKJitzPB24Cjji9qJCKIx5klMeEiwp0YPAE/d9Xt8g==
+"@electron-forge/maker-base@7.7.0":
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-base/-/maker-base-7.7.0.tgz#11882c4a3638a3031103a339459184430f6daa89"
+  integrity sha512-9u+mmBLBAUHuH0+IGw94EGVTDD4CPKX05h5pp5/PIaijy16ss5dymK4vEp3s2XJMFlza2PsCgLLYBgDcAE2Dqg==
   dependencies:
-    "@electron-forge/shared-types" "7.5.0"
+    "@electron-forge/shared-types" "7.7.0"
     fs-extra "^10.0.0"
     which "^2.0.2"
 
@@ -282,13 +282,13 @@
   optionalDependencies:
     electron-installer-debian "^3.2.0"
 
-"@electron-forge/maker-dmg@7.5.0":
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-dmg/-/maker-dmg-7.5.0.tgz#2f5c69b8356e319629607df80dcb0d234adcc3cb"
-  integrity sha512-OcySukBT6FQJRbb0CKXnre4e0JinJfDGteCOLypB8UsN5Wg/4lIDB0hMhBmWGPJkZXKUDGkB1lhkdcLKbzT50Q==
+"@electron-forge/maker-dmg@7.7.0":
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-dmg/-/maker-dmg-7.7.0.tgz#a40dd8406357cd7bfd2e10c555281f38b13654de"
+  integrity sha512-Hq4nsY6eOdtigN4RLc9i2SbLEr46J6FfbdU+r39R/EVIJ82WRk7JPrCqbckEM7KY1TjhmrnhPWeviWoGAjbXhA==
   dependencies:
-    "@electron-forge/maker-base" "7.5.0"
-    "@electron-forge/shared-types" "7.5.0"
+    "@electron-forge/maker-base" "7.7.0"
+    "@electron-forge/shared-types" "7.7.0"
     fs-extra "^10.0.0"
   optionalDependencies:
     electron-installer-dmg "^5.0.1"
@@ -397,14 +397,14 @@
     "@electron/rebuild" "^3.2.10"
     listr2 "^7.0.2"
 
-"@electron-forge/shared-types@7.5.0":
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/@electron-forge/shared-types/-/shared-types-7.5.0.tgz#3e72aba15add1e5af45767640eeb43b59497f907"
-  integrity sha512-VXuLVGYa3ZulBlmjA40ZEpk+iPH5ebN0v7t27wDt3rm23bph2aQrL7uSTLXhobenXYBVKggXnQt6rJ9A7FCDNQ==
+"@electron-forge/shared-types@7.7.0":
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/shared-types/-/shared-types-7.7.0.tgz#936e6ded34e53a2bbd82583ce1e4c127e423f33d"
+  integrity sha512-1zQsmudkAuHv0HnJtSJY3pvTeuN3fnSa9BR6cbeUlcpOfrnG4OTG03FqerHfyIWaBRVy7jGgif0NhKKE9azKyg==
   dependencies:
-    "@electron-forge/tracer" "7.5.0"
+    "@electron-forge/tracer" "7.7.0"
     "@electron/packager" "^18.3.5"
-    "@electron/rebuild" "^3.2.10"
+    "@electron/rebuild" "^3.7.0"
     listr2 "^7.0.2"
 
 "@electron-forge/template-base@7.4.0":
@@ -461,10 +461,10 @@
   dependencies:
     chrome-trace-event "^1.0.3"
 
-"@electron-forge/tracer@7.5.0":
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/@electron-forge/tracer/-/tracer-7.5.0.tgz#45288de6a99923073e69c74ec46c63e26ce1ef66"
-  integrity sha512-1dE0wKCmv/K3BXCH70o2jp/y2kXgZQm73gIvzyadySXYwu2L4BWxhAO+Q+JsnbUk+nclHEup5ph4D0JoPIWLcQ==
+"@electron-forge/tracer@7.7.0":
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/@electron-forge/tracer/-/tracer-7.7.0.tgz#a90be0b2e4c797b6cd3f1a3abcb0649cd397cf6e"
+  integrity sha512-R/JiGFzWhwfVyc6ioT4l5FFChRLS4Z2tWPeQfPcyoemdpzKpI1rvMHti42gzWXFW8GdzkhG0G3ZWfKiF3y3x/Q==
   dependencies:
     chrome-trace-event "^1.0.3"
 
@@ -588,7 +588,7 @@
     semver "^7.1.3"
     yargs-parser "^21.1.1"
 
-"@electron/rebuild@^3.2.10":
+"@electron/rebuild@^3.2.10", "@electron/rebuild@^3.7.0":
   version "3.7.1"
   resolved "https://registry.npmmirror.com/@electron/rebuild/-/rebuild-3.7.1.tgz#27ed124f7f1dbed92b222aabe68c0e4a3e6c5cea"
   integrity sha512-sKGD+xav4Gh25+LcLY0rjIwcCFTw+f/HU1pB48UVbwxXXRGaXEqIH0AaYKN46dgd/7+6kuiDXzoyAEvx1zCsdw==
@@ -7073,8 +7073,16 @@ stream-buffers@~2.2.0:
   resolved "https://registry.npmmirror.com/stream-buffers/-/stream-buffers-2.2.0.tgz#91d5f5130d1cef96dcfa7f726945188741d09ee4"
   integrity sha512-uyQK/mx5QjHun80FLJTfaWE7JtwfRMKBLkMne6udYOmvH0CawotVa7TfgYHzAnpphn4+TweIx1QKMnRIbipmUg==
 
-"string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
-  name string-width-cjs
+"string-width-cjs@npm:string-width@^4.2.0":
+  version "4.2.3"
+  resolved "https://registry.npmmirror.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
+string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.npmmirror.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -7144,8 +7152,14 @@ stringify-entities@^4.0.0:
     character-entities-html4 "^2.0.0"
     character-entities-legacy "^3.0.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
-  name strip-ansi-cjs
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.npmmirror.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
+
+strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmmirror.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -7799,8 +7813,16 @@ word-wrap@^1.2.3:
   resolved "https://registry.npmmirror.com/word-wrap/-/word-wrap-1.2.5.tgz#d2c45c6dd4fbce621a66f136cbe328afd0410b34"
   integrity sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==
 
-"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
-  name wrap-ansi-cjs
+"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.npmmirror.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
+  integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
+  dependencies:
+    ansi-styles "^4.0.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+
+wrap-ansi@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmmirror.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
