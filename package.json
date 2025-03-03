@@ -42,7 +42,7 @@
     "@types/intl-tel-input": "^18.1.4",
     "@types/lodash": "^4.17.1",
     "@types/mark.js": "^8.11.12",
-    "@types/node": "^20.12.11",
+    "@types/node": "^22.13.9",
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
     "@types/validator": "^13.11.10",
